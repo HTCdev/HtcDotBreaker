@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<!-- DisablePreview -->
+    <style name="ThemeDark.NoDisplayPreview" parent="@android:Theme.Holo">  
+	    <item name="android:windowDisablePreview">true</item> 
+	    <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item> 
+	</style>
+    <style name="ThemeLight.NoDisplayPreview" parent="@android:Theme.Holo.Light.DarkActionBar">  
+	    <item name="android:windowDisablePreview">true</item>
+	    <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+	    <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+	    <item name="android:homeAsUpIndicator">@drawable/actionbar_up_btn</item>
+	</style>
+	<style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+	    <item name="android:src">@drawable/actionbar_over_btn</item>
+	</style>
+	<style name="MyActionBarStyle" parent="android:style/Widget.Holo.ActionBar">
+	    <item name="android:height">@dimen/action_bar_h</item>
+	</style>
+	
+<!-- ActionBartitleStrokeTextView -->
+    <style name="ActionBarTitleStrokeText">  
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_height">@dimen/action_bar_h</item>
+	    <item name="android:textSize">@dimen/dot_breaker_01</item>
+	    <item name="android:textColor">@color/dot_breaker_01</item>
+	    <item name="android:gravity">center_vertical|left</item>
+	    <item name="android:layout_marginLeft">@dimen/margin_left_actionbar_title</item>
+	</style>
+	
+    
+    
+<!-- Game Level RelativeLayout -->
+    <style name="GameLevelRelativeLayout">  
+	    <item name="android:layout_width">@dimen/select_level_icon_size_h</item>  
+	    <item name="android:layout_height">@dimen/select_level_icon_size_v</item>
+	    <item name="android:layout_marginTop">@dimen/margin_m_m2</item>
+	    <item name="android:layout_marginLeft">@dimen/margin_grid_same</item>
+	</style>
+
+<!-- Game Level Icon(Background) -->
+    <style name="GameLevelIconBG">  
+	    <item name="android:layout_width">fill_parent</item>  
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:background">@drawable/dot_breaker_level_normal</item>
+	</style>
+    
+<!-- Game Level Number -->
+    <style name="GameLevelNumber">  
+	    <item name="android:layout_width">fill_parent</item>  
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:textSize">@dimen/dot_breaker_02</item>
+	    <item name="android:textColor">@color/dot_breaker_02</item>
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+	    <item name="android:layout_marginBottom">@dimen/margin_bottom_level_number</item>
+	    <item name="android:layout_marginRight">@dimen/margin_right_level_number</item>
+	</style>
+	
+<!-- Game Level Icon(Resume) -->
+    <style name="GameLevelIconRe">  
+	    <item name="android:layout_width">fill_parent</item>  
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:scaleType">center</item>
+	    <item name="android:contentDescription">@string/LEVEL_Resume</item>
+	</style>
+	
+
+    
+<!-- Game Stats RelativeLayout -->
+    <style name="GameStatusRelativeLayout" >
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">@dimen/v3</item>
+	</style>
+    
+<!-- Game Stats Divider -->
+    <style name="GameStatusDivider" >
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:background">@drawable/dot_breaker_status_list_divider</item>
+	</style>
+    
+<!-- Game Stats TextView -->
+    <style name="GameStatusTextViewItem" >  
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentLeft">true</item>  
+	    <item name="android:layout_alignParentTop">true</item>
+	</style>
+	
+    <style name="GameStatusTextViewItemFirstRow" parent="GameStatusTextViewItem">
+        <item name="android:layout_marginTop">@dimen/game_stats_v_margin_item_firstrow</item>
+	    <item name="android:textColor">@color/dot_breaker_04</item>
+	    <item name="android:textSize">@dimen/dot_breaker_04</item>
+	</style>
+	
+    <style name="GameStatusTextViewItemOddRow" parent="GameStatusTextViewItem">  
+	    <item name="android:layout_marginTop">@dimen/game_stats_v_margin_item</item>
+	    <item name="android:textColor">@color/dot_breaker_08</item>
+	    <item name="android:textSize">@dimen/dot_breaker_08</item>
+	</style>
+	
+    <style name="GameStatusTextViewItemEvenRow" parent="GameStatusTextViewItem">  
+	    <item name="android:layout_marginTop">@dimen/game_stats_v_margin_item</item>
+	    <item name="android:textColor">@color/dot_breaker_07</item>
+	    <item name="android:textSize">@dimen/dot_breaker_07</item>
+	</style>
+	
+    <style name="GameStatusTextViewUnit">  
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentRight">true</item>  
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:layout_marginBottom">@dimen/game_stats_v_margin_unit</item>
+	    <item name="android:textColor">@color/dot_breaker_17</item>
+	    <item name="android:textSize">@dimen/dot_breaker_17</item>
+	</style>
+	
+    <style name="GameStatusTextViewNumber">  
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:layout_marginBottom">@dimen/game_stats_v_margin_number</item>
+	</style>
+	
+    <style name="GameStatusTextViewNumberFirstRow" parent="GameStatusTextViewNumber">
+	    <item name="android:textColor">@color/dot_breaker_15</item>
+	    <item name="android:textSize">@dimen/dot_breaker_15</item>
+	    <item name="android:layout_alignParentRight">true</item>
+	    <item name="android:layout_marginRight">@dimen/game_stats_h2_margin_firstrow</item>
+	    <item name="android:layout_marginBottom">@dimen/game_stats_v_margin_number_firstrow</item>
+	</style>
+	
+    <style name="GameStatusTextViewNumberOtherRow" parent="GameStatusTextViewNumber">  
+	    <item name="android:textColor">@color/dot_breaker_16</item>
+	    <item name="android:textSize">@dimen/dot_breaker_16</item>
+	</style>
+	
+    <style name="GameStatusTextViewNumberOtherRowWithoutUnit" parent="GameStatusTextViewNumberOtherRow">  
+	    <item name="android:layout_alignParentRight">true</item>
+	</style>
+
+    
+<!-- Action bar overflow menu button -->
+    <style name="Customoverflow" >
+	    <item name="android:src">@drawable/dot_breaker_btn_menu</item>
+	</style>
+	
+<!-- Tips page -->
+    <style name="Tips_list_primary_m" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/list_primary_m</item>
+        <item name="android:textColor">#4b4b4b</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    
+
+</resources>

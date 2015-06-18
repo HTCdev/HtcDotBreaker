@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Limit : 30 chars , google play title-->
+    <string name="googleplay_title">HTC Dot Breaker</string>
+
+	<!--Limit : 80 chars , google play short description -->
+	<string name="googleplay_description_short">A classic arcade game reimagined for play using HTC Dot View.</string>
+	<string name="googleplay_whatsnew">Everything.</string>
+	
+	<!-- Description for HTC Dot Breaker APP -->
+	<string name="googleplay_description_app">HTC Dot Breaker lets you play a modern take on classic, brick breaking arcade games using your HTC Dot View case. \nCan you crash into every dot and conquer all of the exciting levels? Challenge friends and family to see who can get the highest score! \nTo play, you’ll need the HTC Dot View case and app.</string>
+	<!-- Description for HTC Dot Breaker SupportingScope -->
+	<string name="googleplay_description_supportingScope"></string>
+	<!-- Description for HTC Dot Breaker Legal -->
+    <string name="googleplay_description_legal">[googleplay_description_legal_common_1]</string>
+</resources>

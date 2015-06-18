@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dot_breaker_bg" >
+<!--     android:fitsSystemWindows="true" -->
+
+<!-- 	<View android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_h"/> -->
+<!-- 	<com.htc.brickbreaker.StrokeTextView -->
+<!-- 	    android:id="@+id/strokeTextView_title_select_level" -->
+<!-- 		android:layout_width="wrap_content" -->
+<!-- 		android:layout_height="@dimen/action_bar_h" -->
+<!-- 		android:text="@string/action_bar_title_select_level" -->
+<!-- 		android:textSize="@dimen/dot_breaker_01" -->
+<!-- 		android:textColor="@color/dot_breaker_01" -->
+<!-- 		android:gravity="center_vertical|left" -->
+<!-- 		android:layout_marginLeft="@dimen/margin_l" -->
+<!-- 		android:background="@drawable/dot_breaker_bkg_top_full" /> -->
+	
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/action_bar_h"
+	    android:background="@drawable/dot_breaker_bkg_top_full" >
+	    	
+	    <com.htc.dotbreaker.StrokeTextView
+		    android:id="@+id/strokeTextView_title_select_level"
+			android:text="@string/action_bar_title_select_level"
+			style="@style/ActionBarTitleStrokeText" />
+	</RelativeLayout>
+	<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbars="none" android:overScrollMode="never"  >
+     
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="10" >
+
+        <RelativeLayout 
+	        android:layout_row="0"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg001"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level001"
+		        android:text="@string/LEVEL001"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level001"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="0"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg002"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level002"
+		        android:text="@string/LEVEL002"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level002"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="0"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg003"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level003"
+		        android:text="@string/LEVEL003"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level003"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="1"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg004"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level004"
+		        android:text="@string/LEVEL004"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level004"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="1"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg005"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level005"
+		        android:text="@string/LEVEL005"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level005"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="1"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg006"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level006"
+		        android:text="@string/LEVEL006"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level006"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="2"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg007"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level007"
+		        android:text="@string/LEVEL007"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level007"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="2"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg008"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level008"
+		        android:text="@string/LEVEL008"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level008"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="2"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg009"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level009"
+		        android:text="@string/LEVEL009"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level009"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="3"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg010"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level010"
+		        android:text="@string/LEVEL010"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level010"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="3"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg011"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level011"
+		        android:text="@string/LEVEL011"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level011"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="3"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg012"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level012"
+		        android:text="@string/LEVEL012"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level012"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="4"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg013"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level013"
+		        android:text="@string/LEVEL013"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level013"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="4"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg014"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level014"
+		        android:text="@string/LEVEL014"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level014"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="4"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg015"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level015"
+		        android:text="@string/LEVEL015"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level015"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="5"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg016"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level016"
+		        android:text="@string/LEVEL016"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level016"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="5"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg017"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level017"
+		        android:text="@string/LEVEL017"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level017"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="5"
+			android:layout_column="2" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg018"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level018"
+		        android:text="@string/LEVEL018"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level018"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="6"
+			android:layout_column="0" 
+			style="@style/GameLevelRelativeLayout"
+			android:layout_marginBottom="@dimen/select_level_v2" >
+            <View
+		        android:id="@+id/view_bg019"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level019"
+		        android:text="@string/LEVEL019"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level019"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:layout_row="6"
+			android:layout_column="1" 
+			style="@style/GameLevelRelativeLayout" >
+            <View
+		        android:id="@+id/view_bg020"
+		        style="@style/GameLevelIconBG" />
+            <com.htc.dotbreaker.StrokeTextView 
+	            android:id="@+id/textView_level020"
+		        android:text="@string/LEVEL020"
+		        style="@style/GameLevelNumber" />
+            <ImageView
+		        android:id="@+id/imageView_level020"
+		        style="@style/GameLevelIconRe" />
+        </RelativeLayout>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+    <View 
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/action_bar_h"
+		android:layout_row="5"
+		android:layout_columnSpan="3" />
+    </GridLayout>
+	</ScrollView>
+	
+	
+</LinearLayout>
+

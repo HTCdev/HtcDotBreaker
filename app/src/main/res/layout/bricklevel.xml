@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="GridLayout" />
+    
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="11"
+        android:useDefaultMargins="true" >
+
+        <Button
+            android:id="@+id/button_level1"
+            android:layout_width="112dp"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="0"
+            android:text="Level 1" />
+
+        <Button
+            android:id="@+id/button_level2"
+            android:layout_width="112dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="Level 2" />
+
+        <Button
+            android:id="@+id/button_level3"
+            android:layout_width="112dp"
+            android:layout_column="2"
+            android:layout_gravity="right|center_vertical"
+            android:layout_row="0"
+            android:text="Level 3" />
+
+        <Button
+            android:id="@+id/button_Load_File"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="0"
+            android:text="Load File as Bar setting" />
+        <TextView
+            android:id="@+id/textView_empty2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3" />
+        
+        <Button
+            android:id="@+id/button_Brick_Move"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:layout_columnSpan="3"
+            android:layout_row="0"
+            android:text="Brick Game Setting: Move" />
+
+        <Button
+            android:id="@+id/button_Brick_Mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:layout_columnSpan="3"
+            android:layout_row="1"
+            android:text="Brick Game Setting: Mode" />
+        
+        <Button
+            android:id="@+id/button_Brick_Speed_of_Ball"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:layout_columnSpan="3"
+            android:layout_row="1"
+            android:text="Brick Game Setting: Speed of ball." />
+
+        <TextView
+            android:id="@+id/textView_move_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="2"
+            android:text="Move setting: Default is false." />
+        
+        <TextView
+            android:id="@+id/textView_mode_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="2"
+            android:text="Mode setting: Default is Normal." />
+        
+        <TextView
+            android:id="@+id/textView_speed_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="2"
+            android:text="Speed setting: Default is 80." />
+        
+        <TextView
+            android:id="@+id/textView_test1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="3"
+            android:text="test1" />
+        
+        <TextView
+            android:id="@+id/textView_test2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="4"
+            android:text="test2" />
+        
+        <TextView
+            android:id="@+id/textView_test3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_row="5"
+            android:text="test3" />
+        
+        <Button
+            android:id="@+id/button_level4"
+            android:layout_width="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_column="0"
+            android:layout_row="10"
+            android:text="Color Test Row" />
+
+        <Button
+            android:id="@+id/button_level5"
+            android:layout_width="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_column="1"
+            android:layout_row="10"
+            android:text="Color Test Column" />
+
+        <Button
+            android:id="@+id/button_level6"
+            android:layout_width="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_column="2"
+            android:layout_row="10"
+            android:text="Test 6" />
+
+    </GridLayout>
+
+</LinearLayout>

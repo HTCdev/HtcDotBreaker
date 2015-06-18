@@ -1,0 +1,95 @@
+<resources>
+    <!-- This is WQHD resolution 2560*1440(360*4) -->
+    <!-- Layout -->
+    <dimen name="margin_l">	62px	</dimen>
+    <dimen name="margin_m">	40px	</dimen>
+    <dimen name="margin_s">	30px	</dimen>
+    <dimen name="margin_xs">24px	</dimen>
+    <dimen name="spaceing">	18px	</dimen>
+    <dimen name="leading">	14px	</dimen>
+    
+    
+    <dimen name="margin_m_m2">	80px	</dimen>
+    <dimen name="select_level_v2">	126px	</dimen>
+    <dimen name="margin_grid_same">	104px	</dimen>
+    <dimen name="select_level_icon_size_h">	342px	</dimen>
+    <dimen name="select_level_icon_size_v">	354px	</dimen>
+    <dimen name="action_bar_h">	214px	</dimen>
+    <dimen name="status_bar_h">	100px	</dimen>
+    <dimen name="margin_bottom_level_number">	26px	</dimen>
+    <dimen name="margin_right_level_number">	-16px	</dimen>
+    <dimen name="margin_left_actionbar_title">	174px	</dimen>
+    <dimen name="margin_left_actionbar_up_btn">40px</dimen>
+    <dimen name="margin_right_actionbar_up_btn">40px</dimen>
+    
+    <dimen name="stroke_width_default">	14px	</dimen>
+    
+    <dimen name="game_stats_v_firstrow">352px</dimen>
+    <dimen name="v2">		50px	</dimen>
+    <dimen name="v3">		298px	</dimen>
+    <dimen name="game_stats_h1_margin_number_to_unit">14px</dimen>
+    <dimen name="game_stats_h1_margin_unit_to_number">20px</dimen>
+    <dimen name="game_stats_h2_margin_firstrow">-18px</dimen>
+    <dimen name="game_stats_h2_margin_secondrow">-14px</dimen>
+    <dimen name="game_stats_h2_margin_thirdrow">-10px</dimen>
+    <dimen name="game_stats_v_margin_unit">26px</dimen>
+    <dimen name="game_stats_v_margin_number">16px</dimen>
+    <dimen name="game_stats_v_margin_number_firstrow">2px</dimen>
+    <dimen name="game_stats_v_margin_item">4px</dimen>
+    <dimen name="game_stats_v_margin_item_firstrow">-30px</dimen>
+    <dimen name="game_stats_v_margin_item_firstrow_CJ">0px</dimen>
+
+    <dimen name="inner_frame_width">1404px</dimen>
+    <dimen name="inner_frame_height">2496px</dimen>
+    <dimen name="inner_frame_margin_top">6px</dimen>
+    <dimen name="inner_frame_margin_left">18px</dimen>
+    <dimen name="inner_frame_margin_right">18px</dimen>
+    <dimen name="inner_frame_margin_bottom">58px</dimen>
+    
+    <!-- DotImage part -->
+    <dimen name="dot_pixel_width">52px</dimen>
+    <dimen name="dot_pixel_height">52px</dimen>
+    <dimen name="slide_min_distance">208px</dimen> <!-- 52 * 4(dots)-->
+    
+    <!-- Textview size -->
+    <dimen name="text_size_threeline_english">426px</dimen> <!-- Designer -->
+    <dimen name="text_size_threeline_chinese">620px</dimen> <!-- Designer -->
+    <dimen name="text_size_CJK">625px</dimen> <!-- Designer -->
+    <dimen name="text_size_RTL">323px</dimen> <!-- Designer --> <!-- 426*0.76 -->
+    <dimen name="text_size_time">830px</dimen> <!-- Designer -->
+    
+    <dimen name="text_time_height">676px</dimen> <!-- 52 * 13(dots) -->
+    <dimen name="text_temp_height">312px</dimen> <!-- 52 * 6(dots) -->
+    <dimen name="width_1_dot">52px</dimen>
+    <dimen name="width_2_dot">104px</dimen>
+    <dimen name="width_3_dot">156px</dimen>
+    
+    <dimen name="text_threeline_padding_left">31px</dimen> <!-- 52px(1dot) - 21px -->
+    <dimen name="text_threeline_linespacing_extra">-112px</dimen> <!-- Need device to adjust -->
+    <dimen name="text_right_padding_left">0px</dimen>
+    
+    <dimen name="marquee_text_padding_top">208px</dimen> <!-- 52 * 4(dots) -->
+    <dimen name="marquee_text_en_baseline_shift">10px</dimen>
+    
+    <dimen name="dot_breaker_01">96px</dimen>
+    <dimen name="dot_breaker_02">133px</dimen>
+    <dimen name="dot_breaker_03">133px</dimen>
+    <dimen name="dot_breaker_04">160px</dimen>
+    <dimen name="dot_breaker_05">214px</dimen>
+    <dimen name="dot_breaker_06">96px</dimen>
+    <dimen name="dot_breaker_07">120px</dimen>
+    <dimen name="dot_breaker_08">120px</dimen>
+    <dimen name="dot_breaker_09">160px</dimen>
+    <dimen name="dot_breaker_10">74px</dimen>
+    
+    <dimen name="dot_breaker_11">56px</dimen>
+    <dimen name="dot_breaker_12">96px</dimen>
+    <dimen name="dot_breaker_13">69px</dimen>
+    <dimen name="dot_breaker_14">69px</dimen>
+    <dimen name="dot_breaker_15">146px</dimen>
+    <dimen name="dot_breaker_16">96px</dimen>
+    <dimen name="dot_breaker_17">59px</dimen>
+    
+    <dimen name="tips_animation_square_length">600px</dimen>
+    <dimen name="tips_divider_margin">62px</dimen>
+</resources>
