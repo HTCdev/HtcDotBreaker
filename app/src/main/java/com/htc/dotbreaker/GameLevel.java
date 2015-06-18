@@ -374,6 +374,9 @@ public class GameLevel extends Activity {
         }
         int mPlayedGameLevel = mSharedprefs.getInt("PlayedGameLevel", -1);
         if (mPlayedGameLevel != -1) {
+        	if (mPlayedGameLevel >= BrickView.MAX_GAME_LEVEL) {
+        		mPlayedGameLevel = BrickView.MAX_GAME_LEVEL - 1;
+        	}
             mBGViewLevel[mPlayedGameLevel].setBackgroundResource(R.drawable.dot_breaker_level_select);
             mTextViewLevel[mPlayedGameLevel].setTextColor(mRes.getColor(R.color.dot_breaker_03));
             mImageViewLevel[mPlayedGameLevel].setImageResource(R.drawable.dot_breaker_level_resume_press);
