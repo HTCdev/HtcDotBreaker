@@ -1,0 +1,95 @@
+<resources>
+    <!-- This is HD resolution 1280*720(360*2) -->
+    <!-- Layout -->
+    <dimen name="margin_l">	30px	</dimen>
+    <dimen name="margin_m">	20px	</dimen>
+    <dimen name="margin_s">	14px	</dimen>
+    <dimen name="margin_xs">12px	</dimen>
+    <dimen name="spaceing">	09px	</dimen>
+    <dimen name="leading">	06px	</dimen>
+    
+    
+    <dimen name="margin_m_m2">	20px	</dimen>
+    <dimen name="select_level_v2">	62px	</dimen>
+    <dimen name="margin_grid_same">	52px	</dimen>
+    <dimen name="select_level_icon_size_h">	170px	</dimen>
+    <dimen name="select_level_icon_size_v">	177px	</dimen>
+    <dimen name="action_bar_h">	106px	</dimen>
+    <dimen name="status_bar_h">	50px	</dimen>
+    <dimen name="margin_bottom_level_number">	14px	</dimen>
+    <dimen name="margin_right_level_number">	-8px	</dimen>
+    <dimen name="margin_left_actionbar_title">	88px	</dimen>
+    <dimen name="margin_left_actionbar_up_btn">20px</dimen>
+    <dimen name="margin_right_actionbar_up_btn">20px</dimen>
+    
+    <dimen name="stroke_width_default">	6px	</dimen>
+    
+    <dimen name="game_stats_v_firstrow">176px</dimen>
+    <dimen name="v2">		26px	</dimen>
+    <dimen name="v3">		150px	</dimen>
+    <dimen name="game_stats_h1_margin_number_to_unit">8px</dimen>
+    <dimen name="game_stats_h1_margin_unit_to_number">10px</dimen>
+    <dimen name="game_stats_h2_margin_firstrow">-10px</dimen>
+    <dimen name="game_stats_h2_margin_secondrow">-6px</dimen>
+    <dimen name="game_stats_h2_margin_thirdrow">-4px</dimen>
+    <dimen name="game_stats_v_margin_unit">12px</dimen>
+    <dimen name="game_stats_v_margin_number">8px</dimen>
+    <dimen name="game_stats_v_margin_number_firstrow">2px</dimen>
+    <dimen name="game_stats_v_margin_item">2px</dimen>
+    <dimen name="game_stats_v_margin_item_firstrow">-16px</dimen>
+    <dimen name="game_stats_v_margin_item_firstrow_CJ">0px</dimen>
+
+    <dimen name="inner_frame_width">702px</dimen>
+    <dimen name="inner_frame_height">1248px</dimen>
+    <dimen name="inner_frame_margin_top">3px</dimen>
+    <dimen name="inner_frame_margin_left">9px</dimen>
+    <dimen name="inner_frame_margin_right">9px</dimen>
+    <dimen name="inner_frame_margin_bottom">29px</dimen>
+
+    <!-- DotImage part -->
+    <dimen name="dot_pixel_width">26px</dimen>
+    <dimen name="dot_pixel_height">26px</dimen>
+    <dimen name="slide_min_distance">104px</dimen> <!-- 26 * 4(dots)-->
+    
+    <!-- Textview size -->
+    <dimen name="text_size_threeline_english">213px</dimen>
+    <dimen name="text_size_threeline_chinese">310px</dimen>
+    <dimen name="text_size_CJK">311px</dimen>
+    <dimen name="text_size_RTL">161px</dimen>
+    <dimen name="text_size_time">415px</dimen>
+    
+    <dimen name="text_time_height">338px</dimen> <!-- 26 * 13(dots) -->
+    <dimen name="text_temp_height">156px</dimen> <!-- 26 * 6(dots) -->
+    <dimen name="width_1_dot">26px</dimen>
+    <dimen name="width_2_dot">52px</dimen>
+    <dimen name="width_3_dot">78px</dimen>
+
+    <dimen name="text_threeline_padding_left">13px</dimen> <!-- 26px(1dot) - 13px -->
+    <dimen name="text_threeline_linespacing_extra">-56px</dimen>
+    <dimen name="text_right_padding_left">0px</dimen>
+    
+    <dimen name="marquee_text_padding_top">104px</dimen> <!-- 26 * 4(dots) -->
+    <dimen name="marquee_text_en_baseline_shift">5px</dimen>
+    
+    <dimen name="dot_breaker_01">48px</dimen>
+    <dimen name="dot_breaker_02">67px</dimen>
+    <dimen name="dot_breaker_03">67px</dimen>
+    <dimen name="dot_breaker_04">80px</dimen>
+    <dimen name="dot_breaker_05">107px</dimen>
+    <dimen name="dot_breaker_06">48px</dimen>
+    <dimen name="dot_breaker_07">60px</dimen>
+    <dimen name="dot_breaker_08">60px</dimen>
+    <dimen name="dot_breaker_09">80px</dimen>
+    <dimen name="dot_breaker_10">38px</dimen>
+    
+    <dimen name="dot_breaker_11">28px</dimen>
+    <dimen name="dot_breaker_12">48px</dimen>
+    <dimen name="dot_breaker_13">35px</dimen>
+    <dimen name="dot_breaker_14">35px</dimen>
+    <dimen name="dot_breaker_15">74px</dimen>
+    <dimen name="dot_breaker_16">48px</dimen>
+    <dimen name="dot_breaker_17">29px</dimen>
+    
+    <dimen name="tips_animation_square_length">300px</dimen>
+    <dimen name="tips_divider_margin">30px</dimen>
+</resources>
