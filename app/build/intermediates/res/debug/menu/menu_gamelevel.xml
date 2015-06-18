@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+       android:id="@+id/menu_game_stats"
+       android:showAsAction="never"
+       android:title="@string/action_game_stats" />
+    
+    <!-- test for P2 -->
+    <item
+        android:id="@+id/menu_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings" />
+	<!-- xxxxxxxxxxx -->
+    
+</menu> <!-- From: file:/Users/d/HtcDotBreaker/app/src/main/res/menu/menu_gamelevel.xml -->
