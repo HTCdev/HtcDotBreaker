@@ -1,5 +1,5 @@
 # HtcDotBreaker
-An HTC Dot View application see http://htcdev.com or https://play.google.com/store/apps/details?id=com.htc.dotdbreaker
+An HTC Dot View application see http://htcdev.com or https://play.google.com/store/apps/details?id=com.htc.dotbreaker
 
 Note: this application is launched from within the HTCDotView application. Eclipse users can build from app/src/main
 
